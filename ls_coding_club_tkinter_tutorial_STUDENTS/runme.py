@@ -7,11 +7,11 @@ root = tk.Tk()
 
 C = tk.Canvas(root, bg='''any background color you want''', height='''pick one''', relief="sunken", width='''pick one''')
 coords = #where you want the character to start
+my_chararacter = #create a character here!
 
-''''don't touch this code'''
-chara = Character(C, coords)
+'''don't touch this code'''
 frame = tk.Frame(root, width=100, height=100)
-frame.bind("<KeyPress>", chara.key)
+frame.bind("<KeyPress>", my_chararacter.key)
 frame.pack()
 frame.focus_set()
 C.pack()
